@@ -1,4 +1,4 @@
-package com.votek.demo.zip;
+package com.milan.demo.zip;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
