@@ -15,13 +15,12 @@ public interface StatisticsService {
 
 	
 	/**
-	 * Add data abuout usage statistics for a given IP and given Date.
-	 * It will increase count on Statistics entity for the given IP and date.
+	 * Add data abuout usage statistics for a given IP.
+	 * It will increase count on Statistics entity for the given IP.
 	 * @param ip
-	 * @param date
-	 * @param interactions
+	 * @return
 	 */
-	public void addData(String ip, Date date, int interactions);
+	public UsageStatistics addData(String ip);
 	
 	/**
 	 * Obtains UsageData object for a given IP and date
